@@ -1,1 +1,24 @@
 /* styles go here */
+.fieldset {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form_field {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+fieldset:first-child {
+  margin-top: 0;
+}
+
+fieldset label:first-of-type {
+  margin-top: 0;
+}
+
+fieldset label:last-of-type {
+  margin-bottom: 0;
+}
